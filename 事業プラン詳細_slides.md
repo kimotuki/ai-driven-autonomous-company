@@ -2,42 +2,52 @@
 marp: true
 theme: default
 paginate: true
-header: "AI Driven Autonomous Company 事業計画"
+header: "AI Driven Autonomous Company"
 footer: "Confidential"
 ---
 
 # AI Driven Autonomous Company
 
-## 事業計画詳細
+## 事業コンセプト説明資料
 ### AI駆動自律型企業への変革
 
 ---
 
 # 1. エグゼクティブサマリ
 
-- **パラダイムシフト**:
-  - 「人間中心の効率化」から**「AI主体の自律化」**へ
-- **AI Driven Autonomous Company**:
-  - AI Agentが意思決定・実行の主体
-  - 人間は「ミッション定義」「承認」「物理実行」に特化
+本事業は、既存の「人間中心の事業活動をAIで効率化する」ではなく、「AIが主体となり、人間がその自律を支援する」という新しい企業形態（AI Driven Autonomous Company）への変革を起こすための事業である。
+
+AI Driven Autonomous Companyでは、企業活動の中心に「AIエージェント」を据え、意思決定からタスク実行までを自動かつ自律化させる。この中で人は「ミッション定義」「スキーム定義」「レビューと承認」「物理的実行」「監査」を行う。
+
+この企業形態を自社で実証し、そのノウハウを元にした導入コンサルティングと「AI駆動企業」プラットフォームの提供を行う。
+
+---
+
+# 1. エグゼクティブサマリ
+
+- **AI中心のパラダイムシフト**:
+  - 「人間中心に設計された事業活動をAIで効率化する」ではなく、「AI主体の事業活動」をゼロベースで設計する
+- **自律実行**:
+  - 「AI Agent」が意思決定・タスク実行の主体
+  - 人間は「ミッション定義」「スキーム定義」「承認」「物理実行」「監査」に特化
 - **ビジネスモデル**:
-  - 自社での実証（ドッグフーディング）
-  - コンサルティング & プラットフォーム提供
+  - 変革コンサルティング
+  - 「AI駆動企業」プラットフォーム提供
 
 ---
 
 # 2. 事業ミッション & ビジョン
 
 ## ミッション
-**AI駆動企業「AI Driven Autonomous Company」を、社会の標準インフラとする**
+**AIの進化を見越して、企業と社会インフラをゼロベースでへ作り直す**
 
 ## ビジョン
-**AIの進化を見越して、社会・人類の未来を創る**
+**AIの能力を引き出し、社会・人類の未来を創る**
 
 ## コアバリュー
-- **Zero-Base Design**: AIネイティブなゼロベース設計
-- **Autopilot**: 人間の介在を「例外処理」として最小化
-- **Believe the Scaling**: 指数関数的成長（Scaling Law）を前提
+- **Centrized AI**: AIが中心
+- **Zero-Base Design**: ゼロベース設計
+- **Believe the Scaling**: 指数関数的成長（Scaling Law）を信じろ
 
 ---
 
@@ -53,6 +63,10 @@ footer: "Confidential"
   - **自律性**: 業務の大部分を自動化
   - **役割再定義**: 人間は創造・責任・現場対応へ
   - **透明性**: 全意思決定プロセスの記録・監査
+- **キーポイント**:
+  - **AIエージェントが意思決定・タスク実行の主体**
+  - **AIの進化を見越した組織とデータ設計**
+  - **AI as a Service から、Human as a Serviceへ**
 
 ---
 
@@ -65,7 +79,7 @@ footer: "Confidential"
 
 ## ターゲット
 1. **Phase 1 (導入期)**: IT・ソフトウェア業界
-   - エンジニア不足への「AI代替」解
+   - エンジニア不足への「AI代替」s
 2. **Phase 2 (展開期)**: サービス・オペレーション産業
    - コールセンター、店舗管理等のAIマネージャー化
 
@@ -73,15 +87,13 @@ footer: "Confidential"
 
 # 5. 提供サービス概要
 
-# 5. 提供サービス概要 (1/2)
-
 ## A. フロー収益 (変革支援)
 **AIエンジニアリング x 事業コンサル**
 - 脱アジャイル、ポストアジャイル
 - 組織再構築、開発者ゼロ化
 - MCP社内基盤構築
 
-## B. ストック収益 (基盤提供)
+## B. ストック収益 (プラットフォーム提供)
 **AI Autonomous Platform**
 - 世界モデル構築 (Data & Sim)
 - AI Agent群 (Strategy/Task/Check)
@@ -89,59 +101,14 @@ footer: "Confidential"
 
 ---
 
-# 5. 提供サービス概要 (2/2) 構造図
-
-```mermaid
-graph LR
-    Company[("AI Driven<br>Autonomous Company")]
-    
-    subgraph Flow["フロー収益 (変革支援)"]
-        direction TB
-        ServiceA["A. AIエンジニアリング<br>x 事業コンサル"]
-        style ServiceA fill:#ffe0b2,stroke:#f57c00,stroke-width:2px
-        
-        TargetA["対象: IT企業 / DX企業"]
-        ValA1["脱アジャイル<br>ポストアジャイル"]
-        ValA2["組織再構築<br>開発者ゼロ化"]
-        ValA3["MCP社内基盤構築"]
-        
-        ServiceA --- TargetA
-        ServiceA --> ValA1
-        ServiceA --> ValA2
-        ServiceA --> ValA3
-    end
-    
-    subgraph Stock["ストック収益 (基盤提供)"]
-        direction TB
-        ServiceB["B. AI Autonomous<br>Platform"]
-        style ServiceB fill:#b3e5fc,stroke:#0288d1,stroke-width:2px
-        
-        FuncB1["世界モデル構築<br>(Data & Simulation)"]
-        FuncB2["AI Agent群<br>(Strategy/Task/Check)"]
-        FuncB3["Human Interface<br>(Approval/Action)"]
-        
-        ServiceB --> FuncB1
-        ServiceB --> FuncB2
-        ServiceB --> FuncB3
-    end
-
-    Company ==> ServiceA
-    Company ==> ServiceB
-```
-
----
-
 # 6. 差別化要因 (Competitive Advantages)
 
-1. **"Copilot" ではなく "Autopilot"**
+1. **視点の逆転**
    - 主従逆転：AIが主、人間が副
-   - 人間の制約を超えたスケーラビリティ
-2. **"DX" ではなく "AX" (AI Transformation)**
+   - 人間の能力の制約を超えたスケーラビリティ
+2. **ゼロベースデザイン**
    - 既存改善ではなく、AI最適へのゼロベース再構築
-3. **"Agile" ではなく "Autonomous"**
-   - Swarmによる調整コストゼロ化
-   - 人間は「承認ゲート」のみ
-4. **自社が最大の「実験体」**
+3. **自社が最大の「実験体」**
    - 開発者・管理者ゼロでの極端なドッグフーディング
 
 ---
@@ -157,6 +124,7 @@ graph LR
 - **Year 3+: プラットフォーム化 (Phase 3)**
   - サービス業・他業種展開
   - SaaS/RSモデルでの外部販売拡大
+
 
 ---
 
@@ -191,11 +159,22 @@ graph LR
 # 10. 必要なリソース
 
 - **人材**:
-  - AIエンジニア (LLM/Agent)
-  - 組織設計コンサルタント
-  - UI/UXデザイナー
-- **インフラ**:
-  - LLMコスト、計算リソース
-- **資金**:
-  - シード/アーリー投資 (COSTA含む)
+  - AIエンジニア兼コンサルタント
+- **AIツール**:
+  - Claude Code, Devin, GPT, Gemini, Claude
+  **資金**:
+  - イベント・展示会などマーケティング費用
+  - 事業運営費用
 
+
+---
+
+# 参考資料(GenerativeX社)
+
+![w:480](image/スクリーンショット%202025-12-25%208.34.07.png) ![w:480](image/スクリーンショット%202025-12-25%208.34.37.png)
+
+---
+
+# 参考資料(GenerativeX社)
+
+![w:480](image/スクリーンショット%202025-12-25%208.35.47.png) ![w:480](image/スクリーンショット%202025-12-25%208.41.16.png)
